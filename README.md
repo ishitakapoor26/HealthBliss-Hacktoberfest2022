@@ -1,4 +1,8 @@
-![GitHub](https://img.shields.io/github/license/nikhita28/ChillZone)
+<div align="center">
+    
+![GitHub](https://github.com/ishitakapoor26/HealthBliss/blob/main/nutri3-1.png)
+    
+</div>
 <h1 align="center"> Health Bliss </h1>
 <p align="center">
     <a href="https://github.com/ishitakapoor26/HealthBliss"><strong>Explore the docs »</strong></a>
