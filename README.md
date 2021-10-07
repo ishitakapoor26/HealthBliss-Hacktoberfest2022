@@ -122,7 +122,7 @@ git push -u origin <your_branch_name>
 
 <img src="https://firstcontributions.github.io/assets/Readme/submit-pull-request.png" width=600>
 
-**15.** Hurray :exclamation: You have created a PR to the Musicophilia :boom: . Sit back patiently and relax till then the project maintainers will review your PR. Please understand,  there will be some time taken to review a PR and can vary from a few hours to a few days too so be Patient and keep contributing.
+**15.** Hurray :exclamation: You have created a PR to the HealthBliss :boom: . Sit back patiently and relax till then the project maintainers will review your PR. Please understand,  there will be some time taken to review a PR and can vary from a few hours to a few days too so be Patient and keep contributing.
 ## Code of Conduct
 <p align="center"><a href="https://github.com/nilisha-jais/Musicophilia/blob/main/CODE_OF_CONDUCT.md"><img width=35% src="https://media.giphy.com/media/qHRwTyhWIj4UU/200w_d.gif"></a></p>
 
