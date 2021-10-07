@@ -35,12 +35,14 @@
 <p>Health Bliss is a website that runs the resources from one of the world’s top 10 mental health resources-support. Health Bliss provides you with good physical and mental health reads which can be used to improve  mental health and bring healthy changes to your life.
 Health Bliss can help you find digital mental health resources from some of most trusted mental health organisations.</p>
 
+
 ## Tech Stack
-- HTML
-- CSS
-- JavaScript
-- Bootstrap
-- PHP
+
+<div align="center"><p>
+    
+[![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)&nbsp;&nbsp;[![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com)&nbsp;&nbsp;[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
+    </p></div>
+
 ## 📌 Getting Started ⭐
 
 Refer to the following articles on the basics of Git and Github and can also contact the Project Mentors, in case you are stuck:
@@ -128,3 +130,4 @@ git push -u origin <your_branch_name>
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) 
 [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com) 
+    </div>
