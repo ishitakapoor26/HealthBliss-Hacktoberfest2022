@@ -8,7 +8,6 @@
     <a href="https://github.com/ishitakapoor26/HealthBliss"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/ishitakapoor26/HealthBliss/index.html">View Demo</a>
     ·
     <a href="https://github.com/ishitakapoor26/HealthBliss/issues">Report Bug</a>
     ·
