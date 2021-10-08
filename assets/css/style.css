@@ -330,6 +330,10 @@ h1, h2, h3, h4, h5, h6 {
   background: linear-gradient(0deg, #bdf6ff 0%, #92f8bb 100%);
   padding: 0;
 }
+#hero .box{
+  margin-right: auto; 
+  margin-left: 0;
+}
 
 #hero .carousel-container {
   display: flex;
