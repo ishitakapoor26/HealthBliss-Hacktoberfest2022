@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fuggles&family=Indie+Flower&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;500&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <title>Health Bliss Signup  </title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="styles1.css">
+    <link rel="shortcut icon" href="icon.png" />
+    </head>
+    <body style="background: #ededed;">
+        <p style="text-align: center;color:blueviolet; font-size: 25px; font-family: Georgia, 'Times New Roman', Times, serif;"> SIGNUP PAGE - HEALTH BLISS</p>
+    
+    <div style="margin:auto;">
+    <div>
+        <img src="anxiety.png" style="width: 650px;height: 600px;margin-left: 75px; float: left;">
+    </div>
+
+<div class="signupcontainer">
+    <div class="contentbox1">
+      <form name="myform" id="sign" onsubmit="validateform()" method="POST">
+        <div class="label2">
+          <label>Name</label>
+          <input
+            id="inputbox2"
+            type="text"
+            name="name"
+            class="form-control"
+            size="50"
+            required
+          />
+        </div>
+
+       
+
+        <div class="label2">
+            <label>Age</label>
+            <input
+              id="inputbox2"
+              type="text"
+              name="dob"
+              class="form-control"
+              required
+            />
+          </div>
+          <div class="label2">
+            <label>Gender</label><br/>
+            <input type="radio" id="cat1" name="gender" value="Male"> <label for="cat1">Male</label>
+            <input type="radio" id="cat2" name="gender" value="female"> <label for="cat2">Female</label>
+            <input type="radio" id="cat3" name="gender" value="others"> <label for="cat3">Others</label>
+          </div>
+
+         <!--<div class="label2">
+            <label>Vaccination status:</label><br />
+            <input type="radio" id="cat1" name="vaccine" value="one"> <label for="cat1">2 doses </label>
+            <input type="radio" id="cat2" name="vaccine" value="two"> <label for="cat2">1 dose </label>
+            <input type="radio" id="cat3" name="vaccine" value="none"> <label for="cat3">Not taken yet</label>
+          </div> -->
+        
+        
+
+        <div class="label2">
+          <label>E-mail</label>
+          <input
+            id="inputbox2"
+            type="text"
+            name="email"
+            class="form-control"
+            required
+          />
+        </div>
+
+        <div class="label2">
+          <label>Password</label>
+          <input
+            id="inputbox2"
+            type="password"
+            id="password"
+            name="password"
+            pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}"
+            title="Must contain at least one number and one uppercase and lowercase letter, and at least 6 or more characters"
+            required
+            class="form-control"
+          />
+        </div>
+        <div>
+          <button type="submit" value="register" class="signupbutton">
+            SIGN-UP
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
