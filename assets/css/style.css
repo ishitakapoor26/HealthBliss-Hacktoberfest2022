@@ -102,7 +102,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Desktop Navigation */
 .nav-menu, .nav-menu * {
   margin: 0;
-  padding: 0;
+  padding-left: 0;
   list-style: none;
 }
 
@@ -110,13 +110,14 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   white-space: nowrap;
   float: left;
+  left:25%;
 }
 
 .nav-menu a {
   display: block;
   font-weight: bolder;
   position: relative;
-  color: #0d14f8;
+  color:#1d2768;
   padding: 7px 15px 7px 15px;
   margin-left: 5px;
   transition: 0.3s;
@@ -126,7 +127,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  background: rgb(25 32 236);
+  background: #1d2768;
   text-decoration: none;
   color: white;
 }

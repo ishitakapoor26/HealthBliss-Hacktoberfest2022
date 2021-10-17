@@ -166,3 +166,6 @@
     align-content: center;
   }
 /* signup ends */
+.active{
+  font-size: smaller;
+}
