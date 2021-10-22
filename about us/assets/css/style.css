@@ -394,6 +394,9 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile ul {
   display: block;
   position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   top: 55px;
   right: 15px;
   bottom: 15px;
@@ -406,11 +409,15 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-mobile > ul > li {
   padding: 0;
+  width: 100%;
+  text-align: center;
 }
 
 .navbar-mobile a {
   padding: 10px 20px;
-  font-size: 15px;
+  font-size: 1.8rem;
+  border-bottom: 1px solid #2c4964;
+  border-radius: 0;
   color: #2c4964;
 }
 
@@ -463,11 +470,12 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 70%;
+  /* height: 70%; */
   background-repeat: no-repeat;
   background: url(../img/banner.jpg) center center no-repeat;
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   position: relative;
 }
 
@@ -486,8 +494,9 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero h2 {
   color: rgba(255, 255, 255, 0.8);
-  margin: -40px 0px 5px -250px;
+  text-align: center;
   font-size: 50px;
+  margin-top: 5rem;
 }
 
 #hero .btn-get-started {
@@ -512,15 +521,17 @@ h1, h2, h3, h4, h5, h6 {
 #hero .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
+
 h3{
   font-weight: lighter;
   letter-spacing: 1px;
-  margin: 5px 50px 100px -550px;
   line-break: auto;
-  font-size: 25px;
+  font-size: 1.2rem;
   color: whitesmoke;
-
+  text-align: center;
+  margin: 3rem 4rem;
 }
+
 @media (min-width: 1200px) {
   #hero {
     background-attachment: fixed;
@@ -550,10 +561,6 @@ h3{
   #hero h1 {
     font-size: 26px;
     line-height: 36px;
-  }
-  #hero h2 {
-    font-size: 18px;
-    line-height: 24px;
   }
   #hero .hero-img img {
     width: 60%;
