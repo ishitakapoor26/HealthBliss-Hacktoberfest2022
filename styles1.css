@@ -25,6 +25,10 @@
   border-radius: 15px;;
 
 } */
+/*.section-title.h2.ul.li{
+
+list-style-type: none;
+}*/
 .contentbox2 {
     width: 455px;
     padding: 47px;
@@ -68,7 +72,11 @@
     margin-top: 20px;
     margin-left: 50x;
 }
+/*.h3{
+  color:blueviolet;
+  align-content: center;
 
+}*/
 .label1 {
     justify-content: space-around;
     color: black;
