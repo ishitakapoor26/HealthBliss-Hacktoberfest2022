@@ -339,6 +339,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   height: 70vh;
   padding-top: 60px;
+  margin-top: 80px;
 }
 
 #hero h2 {
