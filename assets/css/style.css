@@ -120,7 +120,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   font-weight: bolder;
   position: relative;
-  color:#1d2768;
+  color:#26298b;
   padding: 7px 15px 7px 15px;
   margin-left: 2px;
   transition: 0.3s;
@@ -130,7 +130,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  background: #1d2768;
+  background: #26298b;
   text-decoration: none;
   color: white;
 }
