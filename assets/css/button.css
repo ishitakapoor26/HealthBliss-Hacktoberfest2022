@@ -15,11 +15,11 @@
 .sticky-container{
     padding:10px;
     margin:0px;
-    position:absolute;
+    position:fixed;
     left:-130px;
-    top:120px;
+    top:30%;
     width:210px;
-    z-index: 1100;
+    z-index: 2000;
 }
 
 .sticky li{
@@ -75,17 +75,20 @@
 
 .container .facebook span,
 .container .facebook :before{
+    padding-left:5px;
     background: #3b5999;
     color: #fff;
 }
 
 .container .twitter span,
 .container .twitter :before{
+    padding-left:5px;
     background: #46c1f6;
     color: #fff;
 }
 .container .instagram span,
 .container .instagram :before{
+    padding-left:5px;
     background: #e1306c;
     color: #fff;
 }
