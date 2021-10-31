@@ -123,6 +123,20 @@ git push -u origin <your_branch_name>
 <img src="https://firstcontributions.github.io/assets/Readme/submit-pull-request.png" width=600>
 
 **15.** Hurray :exclamation: You have created a PR to the HealthBliss :boom: . Sit back patiently and relax till then the project maintainers will review your PR. Please understand,  there will be some time taken to review a PR and can vary from a few hours to a few days too so be Patient and keep contributing.
+## 📌 Opensource Programs
+
+### This project is a part of following Open Source Program
+<br>
+
+<table style="width:90%;background-color:white;border-radius:30px;" align='center'>
+    <tr>
+  <td>
+<center>
+  <a href="https://hacktoberfest.digitalocean.com/register"><img src="https://selftaughttxg.com/static/a066e8c29bad7f96d41dae2acf724b25/29114/Hacktober_Fest-2021.png"></img></a>
+  </center>
+  </td>
+  </tr>
+</table>
 ## Code of Conduct
 <p align="center"><a href="https://github.com/nilisha-jais/Musicophilia/blob/main/CODE_OF_CONDUCT.md"><img width=35% src="https://media.giphy.com/media/qHRwTyhWIj4UU/200w_d.gif"></a></p>
 
