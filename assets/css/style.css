@@ -339,6 +339,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   height: 70vh;
   padding-top: 60px;
+  margin-top: 80px;
 }
 
 #hero h2 {
@@ -606,10 +607,10 @@ section {
 }
 
 .features .nav-link {
-  border: 1px solid #0833f1;
+  border: 1px solid #100a27;
   padding: 15px;
   transition: 0.3s;
-  color: #0833f1;
+  color: #100a27;
   border-radius: 0;
   display: flex;
   align-items: center;
@@ -629,11 +630,11 @@ section {
 
 .features .nav-link:hover {
   color: white;
-  background: #1c19dd;
+  background: #100a27;
 }
 
 .features .nav-link.active {
-  background:#1c19dd;
+  background:#100a27;
   color: white;
   border-color: #3c1de7;
 }
