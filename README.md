@@ -142,7 +142,7 @@ git push -u origin <your_branch_name>
 
 <div align="center">
 <a href="https://github.com/ishitakapoor26/HealthBliss-Hacktoberfest2021/graphs/contributors">
-  <img src="assets\img\contributors.PNG" style="width:90%;" />
+  <img src="https://contrib.rocks/image?repo=ishitakapoor26/HealthBliss-Hacktoberfest2021" />
 </a>
 </div>
 
