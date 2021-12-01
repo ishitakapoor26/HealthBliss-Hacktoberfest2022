@@ -758,7 +758,7 @@ section {
 
 .services .icon-box:hover {
   transform: translateY(-10px);
-  box-shadow: 0 2px 35px 0 rgba(68, 88, 144, 0.2);
+  box-shadow: 0 2px 35px 0;
 }
 
 .services .icon {
@@ -780,12 +780,12 @@ section {
   font-size: 18px;
 }
 
-.services .title a {
+.services a {
   color: #2a2c39;
   transition: ease-in-out 0.3s;
 }
 
-.services .title a:hover {
+.services a:hover {
   color: #113b08;
 }
 
