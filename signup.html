@@ -1,117 +1,240 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<DOCTYPE! html>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Fuggles&family=Indie+Flower&display=swap" rel="stylesheet">
-    <link
-      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;500&display=swap"
-      rel="stylesheet"
-    />
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
-    <title>Health Bliss Signup  </title>
+    <head>
+        <title>Signup Page</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <!-- font awesome cdn link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-
-
-    <!-- custom css file link  -->
-    <link rel="stylesheet" href="styles1.css">
-    <link rel="shortcut icon" href="icon.png" />
     </head>
-    <body style="background: #ededed;">
-        <p style="text-align: center;color:blueviolet; font-size: 25px; font-family: Georgia, 'Times New Roman', Times, serif;"> SIGNUP PAGE - HEALTH BLISS</p>
-    
-    <div style="margin:auto;">
-    <div>
-        <img src="anxiety.png" style="width: 650px;height: 600px;margin-left: 75px; float: left;">
-    </div>
-
-<div class="signupcontainer">
-    <div class="contentbox1">
-      <form name="myform" id="sign" onsubmit="validateform()" method="POST">
-        <div class="label2">
-          <label>Name</label>
-          <input
-            id="inputbox2"
-            type="text"
-            name="name"
-            class="form-control"
-            size="50"
-            required
-          />
-        </div>
-
-       
-
-        <div class="label2">
-            <label>Age</label>
-            <input
-              id="inputbox2"
-              type="text"
-              name="dob"
-              class="form-control"
-              required
-            />
-          </div>
-          <div class="label2">
-            <label>Gender</label><br/>
-            <input type="radio" id="cat1" name="gender" value="Male"> <label for="cat1">Male</label>
-            <input type="radio" id="cat2" name="gender" value="female"> <label for="cat2">Female</label>
-            <input type="radio" id="cat3" name="gender" value="others"> <label for="cat3">Others</label>
-          </div>
-
-         <!--<div class="label2">
-            <label>Vaccination status:</label><br />
-            <input type="radio" id="cat1" name="vaccine" value="one"> <label for="cat1">2 doses </label>
-            <input type="radio" id="cat2" name="vaccine" value="two"> <label for="cat2">1 dose </label>
-            <input type="radio" id="cat3" name="vaccine" value="none"> <label for="cat3">Not taken yet</label>
-          </div> -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Yaldevi:wght@300&display=swap');
+        html {
+            height: 100%;
+        }
         
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #034141, #10031f);
+        }
         
+        .signup-box {
+            position: relative;
+            top: 50%;
+            left: 50%;
+            width: 400px;
+            padding: 40px;
+            font-family: 'Cairo', sans-serif;
+            font-family: 'Yaldevi', sans-serif;
+            transform: translate(-50%, -50%);
+            background: linear-gradient(to right, #03191f, #0e9e8b, #0b0355);
+            box-sizing: border-box;
+            box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+            border-radius: 10px;
+        }
+        
+        .signup-box h2 {
+            margin: 0 0 30px;
+            padding: 0;
+            color: #fff;
+            text-align: center;
+        }
+        
+        .signup-box .user-box {
+            position: relative;
+        }
+        
+        .signup-box .user-box input {
+            width: 100%;
+            padding: 10px 0;
+            font-size: 16px;
+            color: #fff;
+            margin-bottom: 30px;
+            border: none;
+            border-bottom: 1px solid #fff;
+            outline: none;
+            background: transparent;
+        }
+        
+        .signup-box .user-box label {
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 10px 0;
+            font-size: 16px;
+            color: #fff;
+            pointer-events: none;
+            transition: .5s;
+        }
+        
+        .signup-box .user-box input:focus~label,
+        .signup-box .user-box input:valid~label {
+            top: -20px;
+            left: 0;
+            color: #05fdfd;
+            font-size: 12px;
+        }
+        
+        .signup-box form a {
+            position: relative;
+            display: inline-block;
+            padding: 10px 20px;
+            color: #03e9f4;
+            font-size: 16px;
+            text-decoration: none;
+            text-transform: uppercase;
+            overflow: hidden;
+            transition: .5s;
+            margin-top: 40px;
+            letter-spacing: 4px
+        }
+        
+        .signup-box a:hover {
+            background: #0ce4e4;
+            color: rgb(10, 0, 0);
+            border-radius: 5px;
+            box-shadow: 0 0 5px #1a0341, 0 0 25px #0dc5c5, 0 0 50px #0703f4, 0 0 100px #140330;
+        }
+        
+        .signup-box a span {
+            position: absolute;
+            display: block;
+        }
+        
+        .signup-box a span:nth-child(1) {
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #03e9f4);
+            animation: btn-anim1 1s linear infinite;
+        }
+        
+        @keyframes btn-anim1 {
+            0% {
+                left: -100%;
+            }
+            50%,
+            100% {
+                left: 100%;
+            }
+        }
+        
+        .signup-box a span:nth-child(2) {
+            top: -100%;
+            right: 0;
+            width: 2px;
+            height: 100%;
+            background: linear-gradient(180deg, transparent, #03e9f4);
+            animation: btn-anim2 1s linear infinite;
+            animation-delay: .25s
+        }
+        
+        @keyframes btn-anim2 {
+            0% {
+                top: -100%;
+            }
+            50%,
+            100% {
+                top: 100%;
+            }
+        }
+        
+        .signup-box a span:nth-child(3) {
+            bottom: 0;
+            right: -100%;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(270deg, transparent, #03e9f4);
+            animation: btn-anim3 1s linear infinite;
+            animation-delay: .5s
+        }
+        
+        @keyframes btn-anim3 {
+            0% {
+                right: -100%;
+            }
+            50%,
+            100% {
+                right: 100%;
+            }
+        }
+        
+        .signup-box a span:nth-child(4) {
+            bottom: -100%;
+            left: 0;
+            width: 2px;
+            height: 100%;
+            background: linear-gradient(360deg, transparent, #03e9f4);
+            animation: btn-anim4 1s linear infinite;
+            animation-delay: .75s
+        }
+        
+        @keyframes btn-anim4 {
+            0% {
+                bottom: -100%;
+            }
+            50%,
+            100% {
+                bottom: 100%;
+            }
+        }
+        
+        .text-center {
+            text-align: center;
+        }
+        
+        #login {
+            text-decoration: none;
+        }
+        
+        #login:hover {
+            background: none;
+            box-shadow: none;
+        }
+    </style>
 
-        <div class="label2">
-          <label>E-mail</label>
-          <input
-            id="inputbox2"
-            type="text"
-            name="email"
-            class="form-control"
-            required
-          />
-        </div>
+    <body>
 
-        <div class="label2">
-          <label>Password</label>
-          <input
-            id="inputbox2"
-            type="password"
-            id="password"
-            name="password"
-            pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}"
-            title="Must contain at least one number and one uppercase and lowercase letter, and at least 6 or more characters"
-            required
-            class="form-control"
-          />
+        <div class="signup-box text-center">
+            <img src="https://icon-library.com/images/icon-login/icon-login-0.jpg" width="50" height="50" />
+            <h2>Signup</h2>
+            <form>
+                <div class="user-box">
+                    <input type="text" name="" required="">
+                    <label>Name</label>
+                </div>
+                <div class="user-box">
+                    <input type="number" name="" required="">
+                    <label>Age</label>
+                </div>
+                <div class="user-box">
+                    <input type="text" list="gender" name="" required="">
+                    <datalist id="gender">
+                        <option value="Male">
+                        <option value="Female">
+                        <option value="Others">
+                      </datalist>
+                    <label>Gender</label>
+                </div>
+                <div class="user-box">
+                    <input type="email" name="" required="">
+                    <label>Email</label>
+                </div>
+                <div class="user-box">
+                    <input type="password" name="" required="">
+                    <label>Password</label>
+                </div>
+                <a href="#" id="" onclick="alert('Succesfully Signed Up')">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span> Submit
+                </a>
+            </form>
+            <p style="color: white;">Already have an account?
+                <a style="color: white;" id="login" href="loginpage.html">Login Here</a>
+            </p>
         </div>
-        <div>
-          <button type="submit" value="register" class="signupbutton">
-            SIGN-UP
-          </button>
-        </div>
-      </form>
-    </div>
-  </div>
-</body>
-</html>
+    </body>
+
+    </html>
