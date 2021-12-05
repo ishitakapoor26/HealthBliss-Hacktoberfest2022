@@ -218,7 +218,7 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav-toggle {
   position: fixed;
   right: 15px;
-  top: 15px;
+  top: 35px;
   z-index: 9998;
   border: 0;
   background: none;
@@ -236,7 +236,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .mobile-nav {
   position: fixed;
-  top: 55px;
+  top: 65px;
   right: 15px;
   bottom: 15px;
   left: 15px;
