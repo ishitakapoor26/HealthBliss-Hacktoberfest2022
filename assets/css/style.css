@@ -126,7 +126,6 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
   font-size: 16px;
   border-radius: 40px;
-  font-family: "Open Sans", sans-serif;
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
@@ -219,7 +218,7 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav-toggle {
   position: fixed;
   right: 15px;
-  top: 15px;
+  top: 35px;
   z-index: 9998;
   border: 0;
   background: none;
@@ -237,7 +236,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .mobile-nav {
   position: fixed;
-  top: 55px;
+  top: 65px;
   right: 15px;
   bottom: 15px;
   left: 15px;
@@ -1258,6 +1257,19 @@ section {
 .team .member:hover .social {
   opacity: 1;
   bottom: 15px;
+}
+
+.team .icon-box {
+  display: flex;
+}
+.team .icon-box .icon {
+  font-size: 50px;
+  color: #1D2768;
+  margin-right: 15px;
+  transform: translateY(-10px);
+}
+.team .icon-box:hover .icon {
+  transform: translateY(20px);
 }
 
 /*--------------------------------------------------------------
