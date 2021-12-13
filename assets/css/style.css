@@ -1260,6 +1260,19 @@ section {
   bottom: 15px;
 }
 
+.team .icon-box {
+  display: flex;
+}
+.team .icon-box .icon {
+  font-size: 50px;
+  color: #1D2768;
+  margin-right: 15px;
+  transform: translateY(-10px);
+}
+.team .icon-box:hover .icon {
+  transform: translateY(20px);
+}
+
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
