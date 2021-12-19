@@ -926,6 +926,13 @@ section {
   opacity: 1;
 }
 
+@media (max-width:520px){
+  .portfolio #portfolio-flters{
+    text-align: center;
+    flex-direction: column;
+  }
+}
+
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
