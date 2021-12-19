@@ -376,7 +376,6 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     justify-content: center;
   }
-  
 }
 
 .navbar-mobile {
@@ -641,9 +640,10 @@ body{
   padding-bottom: 0px;
 }
 .email-box i{
-  background: lightskyblue;
+  background: transparent;
   width: 40px;
   line-height: 40px;
+  text-align: center;
 }
 .tbox,.btn{
   border: none;
@@ -658,11 +658,16 @@ body{
   padding: 0 10px;
 }
 .btn{
-  background: lightskyblue;
-  color: white;
-  padding: 0 .10px;
+  background: transparent;
+  color: black;
+  padding: 0 .50px;
+  border-radius: 0;
   text-transform: uppercase;
   cursor: pointer;
+}
+
+.contact h1{
+  color: white;
 }
 
 .section-title h2 {
@@ -1425,13 +1430,20 @@ p{
   text-align: center;
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
   padding: 20px 0 25px 0;
-  background: #fff;
+  background: white;
+  transition: all 0.5s ease-in-out;
 }
+
+.info-box:hover {
+  transform: translateY(-7px);
+  cursor: pointer;
+}
+
 .section-bg{
   padding:50px 0px;
 }
 .contact .info-box i {
-  font-size: 50px;
+  font-size: 35px;
   color: #5846f9;
   border-radius: 60%;
   padding: 0px;
