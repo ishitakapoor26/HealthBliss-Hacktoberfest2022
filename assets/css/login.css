@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background: url(../img/login\ background.webp);
+    background-size: cover;
+    font-family: "Raleway", sans-serif;
+}
+main{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    height: 310px;
+    width: 330px;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 5.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    overflow: hidden;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+}
+.singin_singup{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    z-index: 2;
+}
+span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    cursor: pointer;
+}
+.singUpForm{
+    display: none;
+}
+.singUp{
+    box-shadow: inset -5px -3px 5px rgba(0, 0, 0, 0.377);
+}
+/* .singIn{
+    box-shadow: inset 5px -3px 5px rgba(0, 0, 0, 0.377);
+} */
+form i{
+    position: absolute;
+    margin: 25px 10px;
+    color:#47f88e ;
+}
+input{
+    width: 300px;
+    height: 3em;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    margin: 10px 0;
+    padding: 0 30px;
+}
+input:focus{
+    outline: 2px solid #47f88e;
+}
+.btn{
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #47f88e;
+    background: #47f88e;
+}
+.btn:hover {
+    background: #fff;
+    color: #47f88e
+}
