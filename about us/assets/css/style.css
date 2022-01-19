@@ -631,12 +631,14 @@ body{
   height: 40px;
   justify-content: center;
   display: inline-flex; /*its better to use inline-flex*/
-  padding-bottom: 0px;
+  padding-bottom: 5px;
 }
 .email-box i{
   background: lightskyblue;
   width: 40px;
   line-height: 40px;
+  border-radius:10%;
+  padding-left: 12px;
 }
 .tbox,.btn{
   border: none;
