@@ -28,90 +28,113 @@
 
     <!-- custom css file link  -->
     <link rel="stylesheet" href="styles1.css">
+    <script src="signup.js"></script>
     <link rel="shortcut icon" href="icon.png" />
     </head>
-    <body style="background: #ededed;">
-        <p style="text-align: center;color:blueviolet; font-size: 25px; font-family: Georgia, 'Times New Roman', Times, serif;"> SIGNUP PAGE - HEALTH BLISS</p>
+
+     
+<body>
+
+
+  <!-- ==================heading======= -->
+
+  <div class=" display-4 heading text-center">
+    <span> &#8220;SIGNUP PAGE - HEALTH BLISS&#x201C;  </span>
+  </div>
+  <!-- ===================left portion of image=========== -->
+  <div class=" p-4 whole_page ">
+
     
-    <div style="margin:auto;">
-    <div>
-        <img src="anxiety.png" style="width: 650px;height: 600px;margin-left: 75px; float: left;">
+    <!-- =====left image===== -->
+    <div class="  left_image col-lg-8 ">
+      <img src="assets/img/signUp_image.png" class="img-fluid ">
     </div>
 
-<div class="signupcontainer">
-    <div class="contentbox1">
-      <form name="myform" id="sign" onsubmit="validateform()" method="POST">
+    <!-- ========right side sign up form=========== -->
+
+    <div class="container right_side col-lg-4  " id="right_side">
+      <div class=" my-5 title   container-fluid text-center">
+        <h3><u>LOGIN/SIGNUP</u> </h3>
+      </div>
+      <div class="form">
+
+        
+
         <div class="label2">
-          <label>Name</label>
-          <input
-            id="inputbox2"
+          <label>  
+            <i class="mx-2 fas fa-users "></i> USERNAME</label>
+          <input onclick="inputt()"
+            id="username"
+            for="validationCustom03"
             type="text"
             name="name"
             class="form-control"
-            size="50"
+           
+            placeholder="ENTER FULL NAME"
             required
           />
-        </div>
 
-       
+         
 
-        <div class="label2">
-            <label>Age</label>
-            <input
-              id="inputbox2"
-              type="text"
-              name="dob"
-              class="form-control"
-              required
-            />
-          </div>
-          <div class="label2">
-            <label>Gender</label><br/>
-            <input type="radio" id="cat1" name="gender" value="Male"> <label for="cat1">Male</label>
-            <input type="radio" id="cat2" name="gender" value="female"> <label for="cat2">Female</label>
-            <input type="radio" id="cat3" name="gender" value="others"> <label for="cat3">Others</label>
-          </div>
-
-         <!--<div class="label2">
-            <label>Vaccination status:</label><br />
-            <input type="radio" id="cat1" name="vaccine" value="one"> <label for="cat1">2 doses </label>
-            <input type="radio" id="cat2" name="vaccine" value="two"> <label for="cat2">1 dose </label>
-            <input type="radio" id="cat3" name="vaccine" value="none"> <label for="cat3">Not taken yet</label>
-          </div> -->
-        
-        
+        </div> 
 
         <div class="label2">
-          <label>E-mail</label>
-          <input
-            id="inputbox2"
+          <label> <i class="mx-2 fas fa-envelope-open "></i> EMAIL</label>
+          <input onclick="inputt()"
+            id="email"
             type="text"
-            name="email"
+            name="name"
             class="form-control"
+            
+            placeholder="XYZ@abc.com"
             required
           />
-        </div>
+        </div> 
 
         <div class="label2">
-          <label>Password</label>
+          <label>  <i class="mx-2 fas fa-lock "></i> PASSWORD</label>
           <input
-            id="inputbox2"
-            type="password"
             id="password"
-            name="password"
-            pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}"
-            title="Must contain at least one number and one uppercase and lowercase letter, and at least 6 or more characters"
-            required
+            type="password"
+            name="name"
             class="form-control"
+            size="20"
+            placeholder="password"
+            required
           />
+        </div> 
+
+        <div class=" my-3 label2">
+
+          <label>AGE:</label>
+    <input type="number" id="quantity" name="quantity" class="label2" min="0" max="100" step="10" value="0">
         </div>
-        <div>
-          <button type="submit" value="register" class="signupbutton">
-            SIGN-UP
-          </button>
+
+
+        <div class="my-3 label2">
+
+          <input type="radio" id="Male" name="fav_language" value="Male">
+            <label for="html">Male</label>
+          
+            <input type="radio" id="FEMALE" name="fav_language" value="FEMALE">
+            <label for="FEMALE">FEMALE</label>
+        
+          <input type="radio" id="OTHERS" name="fav_language" >
+            <label for="css">OTHERS</label><br>
         </div>
-      </form>
+  
+  <div class="text-center">
+
+    <button class="  btn  " type="submit" onclick="validate()" >SUBMIT</button>
+  </div>
+
+
+
+      </div>
+
     </div>
+
   </div>
 </body>
+
 </html>
