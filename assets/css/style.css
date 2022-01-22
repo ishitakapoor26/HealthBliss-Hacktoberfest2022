@@ -1634,3 +1634,21 @@ section {
 main#main {
   background-color: #ffffff;
 }
+/*--------------------------------------------------------------
+# Custom Scrollbar Styling
+--------------------------------------------------------------*/
+
+::-webkit-scrollbar{
+  width: 0.8vw;
+  background: #96d4cc;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(7, 38, 213, 0.541);
+  border: 0.2px solid #00000090;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0e2acca4; 
+}
