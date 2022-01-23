@@ -25,7 +25,7 @@
 .sticky li{
   /*background-color:yellow;*/
   box-shadow:
-    -10px -10px 15px rgba(255,255,255,0.5),
+   /* -10px -10px 15px rgba(70,70,70,0.12),*/
     10px 10px 15px rgba(70,70,70,0.12);
   height:60px;
   margin:10%;
@@ -33,6 +33,7 @@
   list-style:none;
   border-radius:50%;
   color:white;
+  background-color:white;
 }
 .icon i{
 padding:39%;
