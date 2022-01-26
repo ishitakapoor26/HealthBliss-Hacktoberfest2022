@@ -125,7 +125,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled, #header.header-inner-pages {
-  background: rgba(24, 6, 185, 0.8);
+  background:#f8f4ff;
   padding: 12px 0;
 }
 
@@ -140,7 +140,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo a {
-  color: #fff;
+  color: #26298b;
 }
 
 #header .logo img {
@@ -170,7 +170,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   font-weight: bolder;
   position: relative;
-  color: #fbfbfb;
+  color: #26298b;
   padding: 7px 15px;
   margin-left: 5px;
   transition: 0.3s;
@@ -355,7 +355,7 @@ h1, h2, h3, h4, h5, h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #fff;
+  color: #26298b;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -370,7 +370,14 @@ h1, h2, h3, h4, h5, h6 {
   .navbar ul {
     display: none;
   }
- 
+Pushti-R
+  
+  #header .logo a {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+   main
 }
 
 @media (min-width: 992px){
@@ -479,9 +486,9 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 70%;
-  background-repeat: no-repeat;
-  background: url(../img/banner.jpg) center center no-repeat;
+  height: 100vh;
+  background-color: #52a7c1;
+  background-image: linear-gradient(315deg, #52a7c1 0%, #b3f6d8 74%);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -501,7 +508,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h2 {
-  color: rgba(255, 255, 255, 0.8);
+  color: #26298b;
   margin: -40px 0px 5px -250px;
   font-size: 50px;
 }
@@ -534,7 +541,7 @@ h3{
   margin: 5px 50px 100px -550px;
   line-break: auto;
   font-size: 25px;
-  color: whitesmoke;
+  color: #26298b;
 
 }
 @media (min-width: 1200px) {
@@ -583,7 +590,7 @@ text-align: start;
     line-height: 36px;
   }
   #hero h2 {
-    font-size: 18px;
+    font-size: 3rem;
     line-height: 24px;
   }
   #hero .hero-img img {
