@@ -3,7 +3,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Rubik', sans-serif;
   color: rgb(57 69 151);
 }
 
@@ -176,7 +176,6 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
   font-size: 16px;
   border-radius: 50px;
-  font-family: "Open Sans", sans-serif;
 }
 
 .navbar a:hover, .navbar .active > a, .navbar li:hover > a {
@@ -371,14 +370,27 @@ h1, h2, h3, h4, h5, h6 {
   .navbar ul {
     display: none;
   }
+Pushti-R
   
   #header .logo a {
     align-items: center;
     text-align: center;
     justify-content: center;
   }
-  
+   main
 }
+
+@media (min-width: 992px){
+  .container{
+    max-width: 100%;
+}
+.navbar a {
+  padding: 7px 7px;
+}
+#header .logo {
+  font-size: 25px;
+}
+  }
 
 .navbar-mobile {
   position: fixed;
@@ -394,7 +406,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-mobile .mobile-nav-toggle {
   position: absolute;
-  top: 15px;
+  top: 35px;
   right: 15px;
 }
 
@@ -409,6 +421,10 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #fff;
   overflow-y: auto;
   transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .navbar-mobile > ul > li {
@@ -532,8 +548,16 @@ h3{
   #hero {
     background-attachment: fixed;
   }
+  #hero h2 {
+    margin-left: 45rem;
+}
 }
 
+@media(max-width:1200px) {
+  #hero h2 {
+    margin-left: 35rem;
+}
+}
 @media (max-width: 991px) {
   #hero {
     text-align: center;
@@ -551,6 +575,13 @@ h3{
   #hero .hero-img img {
     width: 50%;
   }
+  #hero h2 {
+    display:none;
+}
+#hero h3 {
+padding: 0px 40px;
+text-align: start;
+}
 }
 
 @media (max-width: 768px) {
@@ -571,6 +602,12 @@ h3{
   #hero .hero-img img {
     width: 80%;
   }
+  #header .logo {
+    font-size: 26px;
+  }
+  #hero h3 {
+  font-size: 20px;
+}
 }
 
 @media (max-width: 575px), (max-height: 600px) {
@@ -637,6 +674,7 @@ body{
 } */
 .email-box{
   height: 40px;
+  margin-bottom: 16px;
   justify-content: center;
   display: inline-flex; /*its better to use inline-flex*/
   padding-bottom: 0px;
@@ -644,6 +682,7 @@ body{
 .email-box i{
   background: lightskyblue;
   width: 40px;
+  text-align: center;
   line-height: 40px;
 }
 .tbox,.btn{
@@ -658,10 +697,11 @@ body{
   width: 260px;
   padding: 0 10px;
 }
+
 .btn{
   background: lightskyblue;
   color: white;
-  padding: 0 .10px;
+  padding: 0px 5px;
   text-transform: uppercase;
   cursor: pointer;
 }
@@ -690,11 +730,31 @@ body{
   margin-bottom: 0;
 }
 
+@media (max-width:444px){
+  .email-box:hover > .tbox,.tbox:focus{
+    width: 160px;
+  }
+  .contact .info-box p {
+    font-size: 16px;
+}
+}
+@media (max-width:350px){
+  .email-box:hover > .tbox,.tbox:focus{
+    width: 120px;
+  }
+  .btn{
+    font-size: 13px;
+  }
+}
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
 .about {
   padding: 120px 0;
+}
+
+.row{
+  align-items: center;
 }
 
 .about .content h3 {
@@ -1024,6 +1084,33 @@ p{
   display: flex;
   justify-content: space-evenly;
   
+}
+
+.vid iframe{
+  margin:5px;
+}
+
+@media(max-width:800px){
+  .vid{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media(max-width:550px){
+
+  .vid iframe{
+width: 95%;
+}
+
+.section-title h2 {
+  font-size: 23px;
+}
+
+.section-title h5{
+font-size: 17px;
+}
+
 }
 
 /*--------------------------------------------------------------
@@ -1419,8 +1506,17 @@ p{
 } */
 
 /*--------------------------------------------------------------
+# Map
+--------------------------------------------------------------*/
+
+.row .col-lg-6 iframe {
+  width: 100%;
+}
+
+/*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+
 .contact .info-box {
   color: #444444;
   text-align: center;
@@ -1456,6 +1552,7 @@ p{
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
   padding: 30px;
   background: #fff;
+  height: 450px;
 }
 
 .contact .php-email-form .error-message {
@@ -1532,6 +1629,14 @@ p{
   border: 3px solid #3122b2;
   color: #3122b2;
   font-weight: 200px;
+}
+
+@media (max-width:444px){
+  .contact .info-box p {
+    font-size: 16px;
+    line-height: inherit;
+    font-weight: 600;
+}
 }
 
 @-webkit-keyframes animate-loading {

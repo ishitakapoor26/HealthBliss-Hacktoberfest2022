@@ -126,7 +126,6 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
   font-size: 16px;
   border-radius: 40px;
-  font-family: "Open Sans", sans-serif;
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
@@ -219,7 +218,7 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav-toggle {
   position: fixed;
   right: 15px;
-  top: 15px;
+  top: 35px;
   z-index: 9998;
   border: 0;
   background: none;
@@ -237,7 +236,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .mobile-nav {
   position: fixed;
-  top: 55px;
+  top: 65px;
   right: 15px;
   bottom: 15px;
   left: 15px;
@@ -927,6 +926,13 @@ section {
   opacity: 1;
 }
 
+@media (max-width:520px){
+  .portfolio #portfolio-flters{
+    text-align: center;
+    flex-direction: column;
+  }
+}
+
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
@@ -1258,6 +1264,19 @@ section {
 .team .member:hover .social {
   opacity: 1;
   bottom: 15px;
+}
+
+.team .icon-box {
+  display: flex;
+}
+.team .icon-box .icon {
+  font-size: 50px;
+  color: #1D2768;
+  margin-right: 15px;
+  transform: translateY(-10px);
+}
+.team .icon-box:hover .icon {
+  transform: translateY(20px);
 }
 
 /*--------------------------------------------------------------
@@ -1614,4 +1633,22 @@ section {
 }
 main#main {
   background-color: #ffffff;
+}
+/*--------------------------------------------------------------
+# Custom Scrollbar Styling
+--------------------------------------------------------------*/
+
+::-webkit-scrollbar{
+  width: 0.8vw;
+  background: #96d4cc;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(7, 38, 213, 0.541);
+  border: 0.2px solid #00000090;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0e2acca4; 
 }
