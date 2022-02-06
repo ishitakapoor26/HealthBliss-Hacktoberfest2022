@@ -1652,3 +1652,59 @@ main#main {
 ::-webkit-scrollbar-thumb:hover {
   background: #0e2acca4; 
 }
+
+/*--------------------------------------------------------------
+# Preloader Styling
+--------------------------------------------------------------*/
+@font-face {
+  font-family: "curly";
+  src: url(../webfonts/Yellowtail-Regular.ttf);
+}
+
+.preloader {
+  width: 99.2vw;
+  height: 100vh;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+  border-spacing: 30px;
+  border: 10px double rgb(255, 0, 0);
+  position: fixed;
+}
+.preloader-icon {
+  text-align: center;
+  color: red;
+}
+.preloader-icon h2 {
+  font-family: "curly";
+  letter-spacing: 2px;
+  font-size: 4rem;
+  animation: fade 3s ease-in;
+}
+
+.preloader-icon h1 {
+  font-size: 13rem;
+  animation: spin 2s both infinite;
+}
+
+@keyframes spin {
+  0 {
+    transform: rotateY(0);
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    transform: rotateY(0deg);
+  }
+}
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
