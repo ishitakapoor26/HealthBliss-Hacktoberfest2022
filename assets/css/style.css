@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled {
-  background: rgb(228 230 242 / 90%);
+  background: rgba(4, 13, 66, 0.9);
 }
 
 #header .logo h1 {
