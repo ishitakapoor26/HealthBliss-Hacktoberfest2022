@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled {
-  background: rgb(228 230 242 / 90%);
+  background: rgba(4, 13, 66, 0.9);
 }
 
 #header .logo h1 {
@@ -120,7 +120,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   font-weight: bolder;
   position: relative;
-  color:#26298b;
+  color:#ffffff;
   padding: 7px 15px 7px 15px;
   margin-left: 2px;
   transition: 0.3s;
@@ -947,6 +947,7 @@ section {
 
 .testimonials .testimonial-item .testimonial-img {
   width: 90px;
+  height: 80px;
   border-radius: 50%;
   border: 4px solid #fff;
   margin: 0 auto;
@@ -964,6 +965,7 @@ section {
   color: #999;
   margin: 0;
 }
+
 
 .testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
   color: #fedac0;
