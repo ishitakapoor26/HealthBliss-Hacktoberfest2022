@@ -41,6 +41,18 @@ padding:39%;
 .icon a{
     color:teal
 }
+
+@media  screen and (max-width: 600px) {
+    .sticky li{
+        height:40px;
+        margin:20%;
+        width:40px;
+        list-style:none;
+      }
+      .icon i{
+        padding:34%;
+        }
+}
 /*---------------------------------------------------------------------------------------------------*/
 /*.sticky li{
     /*background-color: transparent;
