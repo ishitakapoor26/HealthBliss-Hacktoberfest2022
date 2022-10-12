@@ -33,7 +33,7 @@
   );
   */
 
-  $contact->add_message( $_POST['name'], 'From');
+  $contact->add_message( $_POST['name'], 'From');w
   $contact->add_message( $_POST['email'], 'Email');
   $contact->add_message( $_POST['message'], 'Message', 10);
 

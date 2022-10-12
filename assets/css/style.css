@@ -1576,10 +1576,16 @@ section {
   background:linear-gradient(
     0deg
     , rgb(189, 246, 255) 0%, rgb(146, 248, 187) 100%);
-  color: #222e85;
-  font-size: 14px;
-  text-align: center;
-  padding: 30px 0;
+    color: #222e85;
+    font-size: 14px;
+    text-align: center;
+    padding: 30px 0;
+    padding-bottom: 55px;
+}
+@media(max-width: 666px){
+  #footer {
+      padding-bottom: 55px;
+  }
 }
 
 #footer h3 {
