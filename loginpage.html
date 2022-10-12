@@ -44,17 +44,21 @@
             <form>
                 <div>
                     <i class="fas fa-user icon"></i>
-                    <input type="text" placeholder="Name">
+                    <input type="text" placeholder="Name" required>
                 </div>
                 <div>
                     <i class="fas fa-envelope-square"></i>
-                    <input type="email" placeholder="E-mail">
+                    <input type="email" placeholder="E-mail" id="signUpEmail" required>
                 </div>
                 <div>
                     <i class="fas fa-lock"></i>
-                    <input type="password" placeholder="Password">
+                    <input type="password" placeholder="Password" id="signUpPassword" required>
                 </div>
-                <button class="btn">Sign Up</button>
+                <div>
+                    <i class="fas fa-lock"></i>
+                    <input type="password" placeholder="Comform Password" id="signUpConformPassword" required>
+                </div>
+                <button class="btn" onclick="checkSignUp()">Sign Up</button>
             </form>
         </div>
         <!-- signin form -->
@@ -62,11 +66,11 @@
             <form>
                 <div>
                     <i class="fas fa-envelope-square"></i>
-                    <input type="email" placeholder="E-mail">
+                    <input type="email" placeholder="E-mail" required>
                 </div>
                 <div>
                     <i class="fas fa-lock"></i>
-                    <input type="password" placeholder="Password">
+                    <input type="password" placeholder="Password" required>
                 </div>
                 <button class="btn">Sign In</button>
             </form>

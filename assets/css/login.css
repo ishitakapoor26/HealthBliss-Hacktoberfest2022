@@ -15,7 +15,7 @@ main{
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
-    height: 330px;
+    height: 400px;
     width: 330px;
     background: rgba(255, 255, 255, 0.3);
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
@@ -29,7 +29,7 @@ form{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 250px;
+    height: 350px;
 }
 .signin_signup{
     height: 60px;
@@ -52,6 +52,10 @@ hr{
 }
 .signUpForm{
     display: none;
+}
+
+.signInForm{
+  margin-top: 60px;
 }
 .signIn{
     box-shadow: inset 0px 0px 5px 2px rgba(0, 0, 0, 0.377);
