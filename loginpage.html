@@ -20,6 +20,29 @@
 
     <!-- For Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <style>
+        .preloader{
+            margin-left: 620px;
+        }
+        .A{ 
+            margin-bottom: 100px;
+        }
+        .B{
+            margin-left: 60px;
+        }
+        .C{
+            margin-left: 60px;
+        }
+        .D{
+            margin-left: 50px;
+        }
+        .signin_signup{
+            margin-left: 650px;
+        }
+        .final{
+            margin-left: 600px;
+        }
+    </style>
 </head>
 
 <body>
@@ -28,18 +51,20 @@
 
      <div class="preloader">
         <div class="preloader-icon">
-          <h2>HealthBliss</h2>
-          <h1>&#x2624;</h1>
+          <h1>HealthBliss</h1>
+          <br>
+          <br>
+          <br>
         </div>
       </div>
     <main>
         <!-- Button to switch between signin and signup page -->
         <div class="signin_signup">
-            <span class="signIn">Sign In</span>
-            <span class="signUp">Sign Up</span>
+            <span class="signIn"> <h1>Sign In</h1></span>
         </div>
-        <hr>
+        <br>
         <!-- signup form -->
+        <div class="final">
         <div class="signUpForm">
             <form>
                 <div>
@@ -54,9 +79,21 @@
                     <i class="fas fa-lock"></i>
                     <input type="password" placeholder="Password">
                 </div>
-                <button class="btn">Sign Up</button>
+                <br>
+                <div class="B">
+                <button class="btn">Sign In</button>
+            </div>
             </form>
         </div>
+        <br>
+        <br>
+        <br>
+
+        <div class="A">
+            <div class="D">
+        <span class="signUp"><h1>Sign Up</h1></span>
+    </div>
+        <br>
         <!-- signin form -->
         <div class="signInForm">
             <form>
@@ -68,9 +105,14 @@
                     <i class="fas fa-lock"></i>
                     <input type="password" placeholder="Password">
                 </div>
-                <button class="btn">Sign In</button>
+                <br>
+                <div class="C">
+                <button class="btn">Sign Up</button>
+            </div>
             </form>
         </div>
+    </div>
+</div>
     </main>
 
     <script src="./assets/js/login.js"></script>
