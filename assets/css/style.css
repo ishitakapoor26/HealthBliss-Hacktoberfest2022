@@ -77,6 +77,14 @@ h1, h2, h3, h4, h5, h6 {
   background: rgb(228 230 242 / 90%);
 }
 
+@media screen and (max-width: 992px){
+  #header.header-scrolled {
+    background: rgb(228, 230, 242, 0.3);
+    backdrop-filter: blur( 0px );
+    -webkit-backdrop-filter: blur( 0px );
+  }
+}
+
 #header .logo h1 {
   font-size: 25px;
   margin: 0;
@@ -1690,7 +1698,7 @@ main#main {
 }
 
 @keyframes spin {
-  0 {
+  0% {
     transform: rotateY(0);
   }
   50% {
