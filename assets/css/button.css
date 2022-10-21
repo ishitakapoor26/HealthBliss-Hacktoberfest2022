@@ -21,6 +21,7 @@
     width:210px;
     z-index: 2000;
     width:14vh;
+    transition: 1s;
 }
 .sticky li{
   /*background-color:yellow;*/
@@ -40,6 +41,35 @@ padding:39%;
 }
 .icon a{
     color:teal
+}
+@media(max-width: 666px){
+    .sticky-container{
+        position: fixed;
+        width: 100%;
+        height: 100vh; 
+    }
+    .sticky{
+        /* top: 90%; */
+        position: fixed;
+        width: 90%;
+        bottom: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .sticky li{
+        margin: 0;
+        padding: 0;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .icon i{
+        padding: 0;
+    }
 }
 /*---------------------------------------------------------------------------------------------------*/
 /*.sticky li{
