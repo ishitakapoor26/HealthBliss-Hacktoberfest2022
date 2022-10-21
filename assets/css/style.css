@@ -766,9 +766,9 @@ section {
   top: calc(50% - 30px);
 }
 
-.services .icon i {
-  font-size: 64px;
+.team .icon i {
   line-height: 1;
+  padding: 0;
   transition: 0.5s;
 }
 
