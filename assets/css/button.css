@@ -36,6 +36,16 @@
   color:white;
   background-color:white;
 }
+
+.sticky li{
+    transition: all 0.3s ease-in-out;
+}
+
+.sticky li:hover{
+    border: 0.1rem solid #052ffc;
+    transform: scale(1.2);
+}
+
 .icon i{
 padding:39%;
 }
