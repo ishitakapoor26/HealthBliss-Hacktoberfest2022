@@ -77,6 +77,14 @@ h1, h2, h3, h4, h5, h6 {
   background: rgb(228 230 242 / 90%);
 }
 
+@media screen and (max-width: 992px){
+  #header.header-scrolled {
+    background: rgb(228, 230, 242, 0.3);
+    backdrop-filter: blur( 0px );
+    -webkit-backdrop-filter: blur( 0px );
+  }
+}
+
 #header .logo h1 {
   font-size: 25px;
   margin: 0;
@@ -766,9 +774,9 @@ section {
   top: calc(50% - 30px);
 }
 
-.services .icon i {
-  font-size: 64px;
+.team .icon i {
   line-height: 1;
+  padding: 0;
   transition: 0.5s;
 }
 
@@ -1576,10 +1584,16 @@ section {
   background:linear-gradient(
     0deg
     , rgb(189, 246, 255) 0%, rgb(146, 248, 187) 100%);
-  color: #222e85;
-  font-size: 14px;
-  text-align: center;
-  padding: 30px 0;
+    color: #222e85;
+    font-size: 14px;
+    text-align: center;
+    padding: 30px 0;
+    padding-bottom: 55px;
+}
+@media(max-width: 666px){
+  #footer {
+      padding-bottom: 55px;
+  }
 }
 
 #footer h3 {
@@ -1690,7 +1704,7 @@ main#main {
 }
 
 @keyframes spin {
-  0 {
+  0% {
     transform: rotateY(0);
   }
   50% {
