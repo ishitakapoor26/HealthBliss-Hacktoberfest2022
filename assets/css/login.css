@@ -31,12 +31,14 @@ form{
     align-items: center;
     height: 250px;
 }
+
 .signin_signup{
     height: 60px;
     width: 100%;
     display: flex;
     z-index: 2;
 }
+
 span{
     display: flex;
     justify-content: center;
@@ -84,14 +86,27 @@ input:focus{
     transition: all 0.3s ease;
     position: relative;
     display: inline-block;
+    margin: 10px;
     outline: none;
     border-radius: 5px;
-    border: 2px solid #00c950;
+    /* border: 2px solid #00c950; */
+    border: none;
     background: #00c950;
+    box-shadow: 2px 2px 40px green;
+    box-shadow: 2px 2px 50px rgb(57, 83, 60);
 }
 .btn:hover {
     background: #fff;
-    color: #00c950
+    color: #00c950;
+}
+
+.forpass{
+  margin: 20px;
+}
+
+.forpass a{
+  text-decoration: none;
+  color: #084922;
 }
 
 
@@ -133,8 +148,9 @@ input:focus{
     font-weight: 100;
   }
   
+
   @keyframes spin {
-    0 {
+    0% {
       transform: rotateY(0);
     }
     50% {
