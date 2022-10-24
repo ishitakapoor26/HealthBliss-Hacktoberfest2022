@@ -10,6 +10,11 @@ body{
     background-size: cover;
     font-family: "Raleway", sans-serif;
 }
+.heading{
+  margin-top: 50px;
+  margin-left: 570px;
+  font-size: 300%;
+}
 main{
     position: absolute;
     left: 50%;
