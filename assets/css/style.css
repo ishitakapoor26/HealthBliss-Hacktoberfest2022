@@ -4,6 +4,9 @@
 
 body {
   font-family: 'Rubik', sans-serif;
+ 
+ 
+
 }
 
 a {
@@ -333,10 +336,12 @@ h1, h2, h3, h4, h5, h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
+  
   width: 100%;
   overflow: hidden;
   position: relative;
-  background: linear-gradient(0deg, #bdf6ff 0%, #92f8bb 100%);
+  
+ background: linear-gradient(0deg, #bdf6ff 0%, #92f8bb 100%);
   padding: 0;
 }
  
@@ -1019,7 +1024,10 @@ section {
     margin: 30px 10px;
   }
 }
+
+
 .col-lg-3:hover {
+  
   
   cursor: pointer;
 }
@@ -1195,7 +1203,7 @@ section {
 # Team
 --------------------------------------------------------------*/
 .team {
-  background: rgb(236 239 239);;
+ 
   padding: 60px 0;
 }
 
@@ -1581,9 +1589,10 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
+ 
   background:linear-gradient(
     0deg
-    , rgb(189, 246, 255) 0%, rgb(146, 248, 187) 100%);
+    , rgb(189, 246, 255) 0%, rgb(146, 248, 187) 100%); 
     color: #222e85;
     font-size: 14px;
     text-align: center;
@@ -1647,6 +1656,8 @@ section {
 }
 main#main {
   background-color: #ffffff;
+  
+  
 }
 /*--------------------------------------------------------------
 # Custom Scrollbar Styling
@@ -1722,3 +1733,97 @@ main#main {
     opacity: 1;
   }
 }
+
+
+
+/* Dark mode toggler */
+.toggle{
+  width: 40px;
+  height: 22px;
+  margin-left: 25px;
+  background-color: whitesmoke;
+  border-radius: 30px;    
+  display: flex;
+  align-items: center;
+  justify-content:  space-around;
+  position: relative;
+  right: 16px;
+  top: 20px;
+
+}
+
+
+.toggle-icon{
+  color: goldenrod;
+}
+
+
+
+.toggle-ball{
+
+  width: 18px;
+  height: 18px;
+  background-color: black;
+  position: absolute;
+  right: 1px;
+  border-radius: 50%;
+  cursor: pointer;
+
+} 
+
+#hero.active{
+  background: black;
+}
+#footer.active{
+  background: black;
+
+}
+#about.active{
+  background: black;
+
+}
+
+
+.team.active{
+  background:black;
+  color: white;
+}
+#about.active{
+  background: black;
+  color: white;
+}
+#features.active{
+  background: black;
+  color: white;
+}
+#cta.active{
+  background: rgb(27, 24, 24);
+  color: white;
+}
+#services.active{
+  background: black;
+  color: white;
+}
+#portfolio.active{
+  background: black;
+  color: white;
+
+}
+#testimonials.active{
+  background: black;
+  color: white;
+}
+#pricing.active{
+  background: black;
+  color: white;
+}
+#contact.active{
+  background: black;
+  color: white;
+}
+
+
+
+
+
+
