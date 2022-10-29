@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Survey</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/HealthBliss-Hacktoberfest2022/assets/css/surveyform.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 id="title">Health Bliss Survey Form</h1>
+       
+      </header>
+
+      <form action="" id="survey-form">
+        <!--NAME-->
+
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="formControl"
+            placeholder="Enter Your Name"
+            required
+          />
+        </div>
+
+        <!--EMAIL-ID-->
+        <div class="form-group">
+          <label for="email">Email ID</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="formControl"
+            placeholder="Enter Your Email-ID"
+            required
+          />
+        </div>
+
+        <!--PHONE NUMBER-->
+        <div class="form-group">
+          <label for="phone">Phone no.</label>
+          <input
+            type="number"
+            name="phone"
+            id="phone"
+            class="formControl"
+            placeholder="Enter Your Phone Number"
+            required
+          />
+        </div>
+
+        <!--AGE-->
+        <div class="form-group">
+          <label for="age">Age</label>
+          <input
+            type="number"
+            name="age"
+            id="age"
+            class="formControl"
+            placeholder="Enter Your Age"
+            required
+          />
+        </div>
+
+        <!--OCCUPATION-->
+
+        <div class="form-group">
+          <p id="quest">Which option best describe your current role ?</p>
+          <select name="role" id="dropdown" class="formControl" required>
+            <option value="" disabled selected>Select current role</option>
+            <option value="student">Student</option>
+            <option value="student">Employee</option>
+            <option value="student">Entrepreneur</option>
+            <option value="student">Doctor</option>
+            <option value="student">Other</option>
+          </select>
+        </div>
+
+        <!--APPOINTMENT EXPERIENCE-->
+        <div class="form-group">
+          <p id="quest">
+            How did you find the experience of booking appointments?
+          </p>
+          <label for="">
+            <input
+              type="radio"
+              name="source"
+              value="Very easy"
+              class="inputRadio"
+              checked
+            />Very Easy
+          </label>
+          <label for="">
+            <input
+              type="radio"
+              name="source"
+              value="Easy"
+              class="inputRadio"
+              checked
+            />Easy
+          </label>
+          <label for="">
+            <input
+              type="radio"
+              name="source"
+              value="Somewhat easy"
+              class="inputRadio"
+              checked
+            />Somewhat easy
+          </label>
+          <label for="">
+            <input
+              type="radio"
+              name="source"
+              value="Difficult"
+              class="inputRadio"
+              checked
+            />Difficult
+          </label>
+        </div>
+
+        <!--EXEPERT REVIEW-->
+        <div class="form-group">
+          <p id="quest">Were your experts empathetic to your needs?</p>
+          <label for="">
+            <input
+              type="radio"
+              name="source"
+              value="Very empathetic"
+              class="inputRadio"
+              checked
+            />Very empathetic
+          </label>
+          <label for="">
+            <input
+              type="radio"
+              name="source"
+              value="Empathetic"
+              class="inputRadio"
+              checked
+            />Empathetic
+          </label>
+          <label for="">
+            <input
+              type="radio"
+              name="source"
+              value="Somewhat empathetic"
+              class="inputRadio"
+              checked
+            />Somewhat empathetic
+          </label>
+          <label for="">
+            <input
+              type="radio"
+              name="source"
+              value="Not empathetic"
+              class="inputRadio"
+              checked
+            />Not empathetic
+          </label>
+        </div>
+
+        <!--EXPERT TIME-->
+        <div class="form-group">
+          <p id="quest">
+            How long did you have to wait until the experts attends to you?
+          </p>
+          <label for="">
+            <input
+              type="radio"
+              name="source"
+              value="As i expected"
+              class="inputRadio"
+              checked
+            />As i expected
+          </label>
+          <label for="">
+            <input
+              type="radio"
+              name="source"
+              value="Had to wait more than i expected"
+              class="inputRadio"
+              checked
+            />Had to wait more than i expected
+          </label>
+        </div>
+
+        <!--EXPERT SATISFICATION-->
+        <div class="form-group">
+          <p id="quest">
+            Were you satisfed with the experts you were allocated with?
+          </p>
+          <label for="">
+            <input
+              type="radio"
+              name="source"
+              value="Somewhat satisfied"
+              class="inputRadio"
+              checked
+            />Somewhat satisfied
+          </label>
+          <label for="">
+            <input
+              type="radio"
+              name="source"
+              value="satisfied"
+              class="inputRadio"
+              checked
+            />Satisfied
+          </label>
+          <label for="">
+            <input
+              type="radio"
+              name="source"
+              value="Dissatisfied"
+              class="inputRadio"
+              checked
+            />Dissatisfied
+          </label>
+          <label for="">
+            <input
+              type="radio"
+              name="source"
+              value="Very dissatisfied"
+              class="inputRadio"
+              checked
+            />Very dissatisfied
+          </label>
+        </div>
+
+        <!--USER EXPERIENCE-->
+        <div class="form-group">
+          <p id="quest">How easy is it to navigate our facility?</p>
+          <label for="">
+            <input
+              type="radio"
+              name="source"
+              value="Very easy"
+              class="inputRadio"
+              checked
+            />Very Easy
+          </label>
+          <label for="">
+            <input
+              type="radio"
+              name="source"
+              value="Easy"
+              class="inputRadio"
+              checked
+            />Easy
+          </label>
+          <label for="">
+            <input
+              type="radio"
+              name="source"
+              value="Somewhat easy"
+              class="inputRadio"
+              checked
+            />Somewhat easy
+          </label>
+          <label for="">
+            <input
+              type="radio"
+              name="source"
+              value="Difficult"
+              class="inputRadio"
+              checked
+            />Difficult
+          </label>
+        </div>
+
+        <!--ANSWER-->
+        <div class="form-group">
+          <p id="quest">Were we able to answer all your questions?</p>
+          <label for="">
+            <input
+              type="radio"
+              name="source"
+              value="somewhat yes"
+              class="inputRadio"
+              checked
+            />Somewhat Yes
+          </label>
+          <label for="">
+            <input
+              type="radio"
+              name="source"
+              value="Yes"
+              class="inputRadio"
+              checked
+            />yes
+          </label>
+          <label for="">
+            <input
+              type="radio"
+              name="source"
+              value="Somewhat questions left unaswered"
+              class="inputRadio"
+              checked
+            />Somewhat questions left unaswered
+          </label>
+          <label for="">
+            <input
+              type="radio"
+              name="source"
+              value="No"
+              class="inputRadio"
+              checked
+            />No
+          </label>
+        </div>
+
+        <!--RATING-->
+        <div class="form-group">
+          <p id="quest">How much do you rate us?</p>
+          <label for="">
+            <input
+              type="radio"
+              name="source"
+              value="1"
+              class="inputRadio"
+              checked
+            />1
+          </label>
+          <label for="">
+            <input
+              type="radio"
+              name="source"
+              value="2"
+              class="inputRadio"
+              checked
+            />2
+          </label>
+          <label for="">
+            <input
+              type="radio"
+              name="source"
+              value="3"
+              class="inputRadio"
+              checked
+            />3
+          </label>
+          <label for="">
+            <input
+              type="radio"
+              name="source"
+              value="4"
+              class="inputRadio"
+              checked
+            />4
+          </label>
+          <label for="">
+            <input
+              type="radio"
+              name="source"
+              value="5"
+              class="inputRadio"
+              checked
+            />5
+          </label>
+        </div>
+
+        <!--SOURCE-->
+        <div class="form-group">
+          <p id="quest">How you come to know about Health Bliss?</p>
+          <label for="">
+            <input
+              type="checkbox"
+              name="prefer"
+              value="Social Media"
+              class="checkbox"
+            />Social Media
+          </label>
+          <label for="">
+            <input
+              type="checkbox"
+              name="prefer"
+              value="Newspaper"
+              class="checkbox"
+            />Newspaper
+          </label>
+          <label for="">
+            <input
+              type="checkbox"
+              name="prefer"
+              value="Friends & families"
+              class="checkbox"
+            />Friends & families
+          </label>
+          <label for="">
+            <input
+              type="checkbox"
+              name="prefer"
+              value="Other"
+              class="checkbox"
+            />Other
+          </label>
+        </div>
+
+        <!--FEEDBACK FORM-->
+        <div class="form-group">
+          <p id="quest">What are the things you feel we should improve upon?</p>
+          <textarea
+            name="feedback"
+            id="feedback"
+            cols="30"
+            rows="10"
+            class="textarea"
+            placeholder="Enter your feedback here...."
+          ></textarea>
+        </div>
+
+        <!--BUTTON-->
+        <div class="from-group">
+          <button type="submit" id="submit" class="btn">Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
