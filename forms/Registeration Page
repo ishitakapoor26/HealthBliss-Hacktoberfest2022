@@ -2,7 +2,7 @@
 <body background="C:\Users\Lenovo\OneDrive\Desktop\webdev\new\img.jpg" style="background-repeat:no-repeat;background-size: 100% 100%">
 <div class="section">
 
-    <h1>REGISTERATION</h1>
+    <h1>REGISTRATION PAGE</h1>
 
     <div class="video-container">
         <div class="color-overlay"></div>
@@ -15,7 +15,7 @@
         <div>
 		 <form id='register' class='input-group-register'><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 		     <input type='text'class='input-field'placeholder='First Name' required>
-		     <input type='text'class='input-field'placeholder='Last Name ' required>
+		     <input type='text'class='input-field'placeholder='Last Name' required>
 		     <input type='email'class='input-field'placeholder='Email Id' required>
 		     <input type='number'class='input-field'placeholder='Roll No.' required>
 		     <input type='number'class='input-field'placeholder='How Excited Are You?(1 to 5)'  required>
