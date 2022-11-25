@@ -5,13 +5,13 @@
 </div>
 <h1 align="center"> Health Bliss </h1>
 <p align="center">
-    <a href="https://github.com/ishitakapoor26/HealthBliss"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/disha100/Health_shell"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     ·
-    <a href="https://github.com/ishitakapoor26/HealthBliss/issues">Report Bug</a>
+    <a href="https://github.com/disha100/Health_shell/issues">Report Bug</a>
     ·
-    <a href="https://github.com/ishitakapoor26/HealthBliss/issues">Request Feature</a>
+    <a href="https://github.com/disha100/Health_shell/issues">Request Feature</a>
   </p>
 </p>
 
@@ -35,7 +35,7 @@
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project ⭐
-<p>Health Bliss is a website that runs the resources from one of the world’s top 10 mental health resources-support. Health Bliss provides you with good physical and mental health reads which can be used to improve  mental health and bring healthy changes to your life.
+<p>Health Shell is a website that runs the resources from one of the world’s top 10 mental health resources-support. Health Bliss provides you with good physical and mental health reads which can be used to improve  mental health and bring healthy changes to your life.
 Health Bliss can help you find digital mental health resources from some of most trusted mental health organisations.</p>
 
 
@@ -58,7 +58,7 @@ Refer to the following articles on the basics of Git and Github and can also con
 - [How to create a Pull Request](https://opensource.com/article/19/7/create-pull-request-github)
 - [Getting started with Git and GitHub](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)
 
-## 📜 Instructions to follow while contributing to HealthBliss
+## 📜 Instructions to follow while contributing to Health_shell
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
