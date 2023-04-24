@@ -6,6 +6,7 @@ body {
   font-family: 'Rubik', sans-serif;
 }
 
+
 a {
   color: #1b18c8;
   font-weight: bolder;
@@ -104,6 +105,9 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   max-height: 100px;
 }
+
+
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -1212,7 +1216,7 @@ section {
   overflow: hidden;
 }
 
-.team .member .social {
+.team .member .sticky-container {
   position: absolute;
   left: 0;
   bottom: 30px;
@@ -1222,7 +1226,7 @@ section {
   text-align: center;
 }
 
-.team .member .social a {
+.team .member .sticky-container a {
   transition: color 0.3s;
   color: #2a2c39;
   margin: 0 3px;
@@ -1236,11 +1240,11 @@ section {
   color: #fff;
 }
 
-.team .member .social a:hover {
+.team .member .sticky-container a:hover {
   background: #fc8129;
 }
 
-.team .member .social i {
+.team .member .sticky-container i {
   font-size: 18px;
 }
 
@@ -1269,7 +1273,7 @@ section {
   color: #777777;
 }
 
-.team .member:hover .social {
+.team .member:hover .sticky-container {
   opacity: 1;
   bottom: 15px;
 }
@@ -1613,11 +1617,11 @@ section {
   margin: 0 0 40px 0;
 }
 
-#footer .social-links {
+#footer .sticky-container-links {
   margin: 0 0 40px 0;
 }
 
-#footer .social-links a {
+#footer .sticky-container-links a {
   font-size: 18px;
   display: inline-block;
   background: #ef6603;
@@ -1632,7 +1636,7 @@ section {
   transition: 0.3s;
 }
 
-#footer .social-links a:hover {
+#footer .sticky-container-links a:hover {
   background: #bd5102;
   color: #fff;
   text-decoration: none;
@@ -1721,4 +1725,76 @@ main#main {
   to {
     opacity: 1;
   }
+}
+/* hover effect in icons */
+.sticky-container {
+  position: fixed;
+  top: 20px;
+}
+.sticky-container ul {
+  padding: 0px;
+  -webkit-transform: translate(-270px, 0);
+  -moz-transform: translate(-270px, 0);
+  -ms-transform: translate(-270px, 0);
+  -o-transform: translate(-270px, 0);
+  transform: translate(-270px, 0);
+}
+.sticky-container ul li {
+  display: block;
+  margin: 5px;
+  background: white;
+  width: 320px;
+  text-align: right;
+  padding: 10px;
+  -webkit-border-radius: 0 30px 30px 0;
+  -moz-border-radius: 0 30px 30px 0;
+  border-radius: 0 30px 30px 0;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+.sticky-container ul li:hover {
+  -webkit-transform: translate(110px, 0);
+  -moz-transform: translate(110px, 0);
+  -ms-transform: translate(110px, 0);
+  -o-transform: translate(110px, 0);
+  transform: translate(110px, 0);
+  background: rgba(255, 255, 255, 0.4);
+}
+.sticky-container ul li:hover a {
+  color: #000;
+}
+.sticky-container ul li:hover i {
+  color: #fff;
+  background: red;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+.sticky-container ul li i {
+  margin-left: 10px;
+  color: #000;
+  background: #fff;
+  padding: 10px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  width: 34px;
+  height: 38px;
+  font-size: 20px;
+  background: #ffffff;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
 }
